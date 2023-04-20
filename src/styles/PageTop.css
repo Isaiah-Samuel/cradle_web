@@ -1,0 +1,85 @@
+.f-body{
+  position: relative;
+}
+
+.pics {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #05022B;
+    width: 100%;
+    
+  }
+
+  .left-pane {
+    justify-content: center;
+    background-color: #05022B;
+    width: 100%;
+    height: auto;
+    max-width: 33%;
+    
+  }
+    
+  .left-pane img{
+    width: 100%;
+    height: auto;
+  }
+  .mid-pane {
+    background-color: #05022B;
+    justify-content: space-around ;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: 33%;
+  }
+  
+  
+  .right-pane {
+    background-color: #05022B;
+    width: 100%;
+    height: auto;
+    max-width: 33%; 
+  }
+  .right-pane img{
+    width: 100%;
+    height:auto;
+  }
+ 
+  .mid-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+   
+  .mid-top img {
+    width: 49%;
+    
+    /* margin: 0.5rem; */
+  }
+
+ .mid-mid{
+  background-color: #05022B;
+  height: 50%;
+  width: auto;
+  display: flex;
+
+ }
+  .mid-mid img{
+    
+    margin: auto;
+    height: auto;
+    width: 80%;
+  }
+
+  .mid-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .mid-bottom img {
+    width: 49%;
+    
+  }
