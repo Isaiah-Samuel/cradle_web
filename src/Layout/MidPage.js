@@ -1,7 +1,12 @@
 import React from "react";
 import Text from "../Components/T_text";
-import Cards from "../Components/SliderCards";
+import SlideCards from "../Components/SliderCards";
 // import Carousel from "../Components/Carousel";
+import image1 from "../assets/card-img1.png";
+import image2 from "../assets/cardImg1.png";
+import image3 from "../assets/cardImg2.png";
+import image4 from "../assets/cardImg3.png";
+
 function MidPage() {
   const msg = {
     text: "What we offer",
@@ -21,7 +26,7 @@ function MidPage() {
     paddingBottom: "30px",
   };
   return (
-    <div className="middle" style={{ background: "#05022B",height: '100vh', padding:'auto'}}>
+    <div className="middle" style={{ background: "#05022B",height: 'fitContent', padding:'auto',paddingBottom:'50vh'}}>
       <Text
         text={msg.text}
         ptext={msg.ptext}
@@ -38,7 +43,11 @@ function MidPage() {
       />
 
       {/* <Carousel/> */}
-      <Cards />
+      <SlideCards  image={image1}/><br/><br/>
+      <SlideCards rowreverse={true} image={image2}/><br/><br/>
+      <SlideCards  image={image3}/><br/><br/>
+      <SlideCards  image={image4}/>
+      
     </div>
   );
 }
