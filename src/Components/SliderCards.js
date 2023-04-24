@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/SliderCards.css";
 
 const SlideCards = (props) => {
   const { image } = props;
@@ -43,14 +42,7 @@ const SlideCards = (props) => {
     height: "110%",
   };
 
-  const slideDots={
-    display:'flex'
-  }
-  const slideDotsbtn={
-    borderRadius:'50%',
-    backgroundColor:'aqua',
-    display:'flex'
-  }
+  
 
   return (
     <div >
@@ -74,12 +66,14 @@ const SlideCards = (props) => {
         />
       </div>
     </div>
-    <div className="slide-dots">
-      <button></button>
-      <button></button>
-      <button></button>
-      <button></button>
-
+    <div style={{
+        display: "flex",
+        margin: "auto",
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: "30px",
+      }}>
+      
     </div>
     </div>
   );
