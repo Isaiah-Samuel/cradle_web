@@ -11,7 +11,6 @@ const SlideCards = (props) => {
     borderRadius: "10px",
     flexDirection: props.rowreverse ? "row-reverse" : "row",
   };
-  
 
   const leftStyles = {
     width: "54%",
@@ -42,39 +41,33 @@ const SlideCards = (props) => {
     height: "110%",
   };
 
-  
-
   return (
-    <div >
-    <div style={cardStyles}>
-      <div style={leftStyles}>
-        <h1 style={h2Styles}>Creche-Montessori</h1>
-        <p style={pStyles}>
-          The early years of a child’s education are ones of excitement,
-          exploration, and discovery. A time when they are introduced to a world
-          beyond the secure and familiar confines of home life, when they begin
-          to make friends, experience new play opportunities and interact with
-          adults beyond those of their immediate family.
-        </p>
-      </div>
+    <div style={{marginBottom:'40px'}}>
+      <div style={cardStyles}>
+        <div style={leftStyles}>
+          <h1 style={h2Styles}>Creche-Montessori</h1>
+          <p style={pStyles}>
+            The early years of a child’s education are ones of excitement,
+            exploration, and discovery. A time when they are introduced to a
+            world beyond the secure and familiar confines of home life, when
+            they begin to make friends, experience new play opportunities and
+            interact with adults beyond those of their immediate family.
+          </p>
+        </div>
 
-      <div style={rightStyles}>
-        <img
-          src={image}
-          alt="pic here"
-          style={imgStyles}
-        />
+        <div style={rightStyles}>
+          <img src={image} alt="pic here" style={imgStyles} />
+        </div>
       </div>
-    </div>
-    <div style={{
-        display: "flex",
-        margin: "auto",
-        alignItems: "center",
-        justifyContent: "center",
-        marginTop: "30px",
-      }}>
-      
-    </div>
+      <div
+        style={{
+          display: "flex",
+          margin: "auto",
+          alignItems: "center",
+          justifyContent: "center",
+          marginTop: "30px",
+        }}
+      ></div>
     </div>
   );
 };

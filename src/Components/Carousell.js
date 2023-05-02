@@ -11,7 +11,7 @@ export default function Carousell() {
   return (
     <div>
       <Carousel>
-        <Carousel.Item>
+        <Carousel.Item> 
           <SlideCards image={image1} />
           <Carousel.Caption>
             {/* <h3>First slide label</h3>

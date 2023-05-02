@@ -1,0 +1,39 @@
+.f-lft{
+    width:45%;
+    height:100%;
+    align-items:center;
+    text-align: center;
+    padding:5%;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.f-mid{
+    padding:5%;
+    width: 35%;
+    height: 100%;
+}
+
+.f-rght{
+    width: 20%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f-rght .socials{
+    height:100%;
+    width: 20%;
+    border-radius: 45px;
+   background: rgba(205, 205, 205, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10% 0;
+    justify-content: space-between;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}

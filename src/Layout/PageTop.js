@@ -7,14 +7,14 @@ function PageTop() {
 
   const msg = {
     text:"Welcome To Cradle School",
-    ptext:<p>We are a thriving educational community of pupils and students whose parents and guardians have <br></br> made a decision for their children/wards to study here for specific reasons: well-trained staff,intensive <br/> curriculum and a stimulating learning environment.</p>,
+    ptext:<p>We are a thriving educational community of pupils and students whose parents and guardians have made a decision for their children/wards to study here for specific reasons: well-trained staff,intensive   curriculum and a stimulating learning environment.</p>,
     color:"#0B0746",
     pcolor:"#0B0746",
     fontSize:"74px",
     pfontSize:"34px",
     textAlign:"center",
-    marginTop:'3%',
-    paddingTop:'3%',
+    marginTop:'5%',
+    paddingTop:'5%',
     paddingBottom:'3%',
     marginBottom:'3%'
   }
