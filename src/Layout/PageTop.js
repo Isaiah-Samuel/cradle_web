@@ -13,6 +13,7 @@ function PageTop() {
     fontSize:"74px",
     pfontSize:"34px",
     textAlign:"center",
+    backgroundColor:'white',
     marginTop:'5%',
     paddingTop:'5%',
     paddingBottom:'3%',
@@ -67,6 +68,7 @@ function PageTop() {
           paddingTop = {msg.paddingTop}
           paddingBottom = {msg.paddingBottom}
           marginBottom= {msg.marginBottom}
+          backgroundColor = {msg.backgroundColor}
           // color:pcolor,fontSize:pfontSize,alignSelf : palignText, pwidth
         />
       </div>

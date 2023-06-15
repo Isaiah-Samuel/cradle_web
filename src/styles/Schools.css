@@ -1,0 +1,178 @@
+*{
+    color:#0B0746
+}
+
+.Schools{
+    margin-top: 1%;
+    margin-bottom: 0;
+    background-color: white;
+    /* height: 1000vh; */
+}
+
+.Schoools .topest {
+    width: auto;
+    height: fit-content;
+    /* background-color: aqua; */
+}
+
+.Schools .topest .top-contain {
+    height: 150vh;
+    margin: 3% 5%;
+    /* background-color: aqua; */
+    border-radius: 34px 34px 0 0;
+}
+
+.Schools .topest .top-contain .top-inner-top-contain {
+    border-radius: 34px 34px 0 0;
+    width: 100%;
+    height: 80vh;
+    /* background-color: blue; */
+    background-image: url('../assets/admLpg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/*****  Lower Nav  ************/
+
+.Schools .topest .top-contain .top-inner-top-contain .low-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: none;
+    margin: 0 5%;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.navbar-links a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+
+.requirement {
+    margin: 5% auto;
+    height: 100vh;
+    width: 90%;
+    padding: 5% 5%;
+    /* border-radius: 20px; */
+    background-color: aqua;
+    box-shadow: -1px -17px 30px rgba(0, 0, 0, 0.25);
+}
+.requirement-main{padding: 4% 2% 0 4%;
+}
+.requirement-main h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+}
+.t-school{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+.h-school{
+    width: 49%;
+    color: #0B0746;
+    background-color: white;
+    height: 7em;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    justify-content: center;
+    padding:3% 0;
+}
+.m-school{
+    width: 49%;
+    padding:3% 0;
+    color: #0B0746;
+    background-color: grey;
+    height: 7em;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+}
+
+.requirement-main{
+    background-color: white;
+    height: 100%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1100px) {
+    .adm-text{
+        font-size: 0.9em;
+        text-align: center;
+}
+.requirements ol {
+    font-size: 24px;
+}
+}
+@media screen and (max-width: 768px) {
+    .top-contain {
+        margin: 2% 2%;
+    }
+
+    .top-inner-top-contain {
+        height: 60vh;
+    }
+
+    .adm-text {
+        margin-top: 3%;
+    }
+    .adm-text{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .requirement {
+        width: 90%;
+        padding: 2% 2%;
+        margin: 2% auto;
+    }
+
+    .requirements ol {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-contain {
+        margin: 1% 1%;
+    }
+
+    .top-inner-top-contain {
+        height: 40vh;
+    }
+
+    .adm-text {
+        margin-top: 2%;
+    }
+    .adm-text{
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    .requirement {
+        width: 90%;
+        padding: 2% 2%;
+        margin: 2% auto;
+    }
+
+    .requirements ol {
+        font-size: 20px;
+    }
+}
