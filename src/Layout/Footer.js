@@ -10,10 +10,11 @@ export default function Footer() {
         alignItems: "center",
         display: "flex",
         height: "65vh",
+        minWidth:'100vw'
       }}
     >
       <div className="f-lft">
-        <div style={{ width: "40%", height: "40%" }}>
+        <div style={{ width: "40%", height: "40%", marginBottom:'5%'}}>
           <img
             style={{ width: "100%", height: "100%" }}
             src={require("../assets/Cradle_logo.png")}

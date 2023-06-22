@@ -2,7 +2,7 @@
     width:45%;
     height:100%;
     align-items:center;
-    text-align: center;
+    text-align: left;
     padding:5%;
     font-size: large;
     display: flex;
@@ -14,6 +14,9 @@
     padding:5%;
     width: 35%;
     height: 100%;
+}
+.f-mid h3{
+    font-size: larger;
 }
 
 .f-rght{

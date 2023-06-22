@@ -13,18 +13,17 @@ export default function MidNav(props) {
             </a>
           </div>
           <div className="mid-navbar-links">
-            <a href="/">Admissions</a>
-            <a href="/">Schools</a>
-            <a href="/">About</a>
-            <a href="/">Contact Us</a>
+            <a href="/admission">Admissions</a>
+            <a href="/schools">Schools</a>
+            <a href="/about">About</a>
+            <a href="/contactus">Contact Us</a>
           </div>
         </nav>
 
         <div style={{ textAlign:'center',margin:'auto',color:'white' }} className="textop">
-          <h1>sammy</h1>
-          <h3>kjhgkjl</h3>
-          <h1 style={{ color: "white" }}>{msg1}</h1>
-          <h3 style={{ color: "white" }}>{msg2}</h3>
+         
+          <h1 style={{ color: "white"}}>{msg1}</h1>
+          <h3 style={{ color: "white", marginTop:'3%'  }}>{msg2}</h3>
         </div>
       </div>
     </div>

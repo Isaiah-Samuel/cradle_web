@@ -1,0 +1,25 @@
+.contact-us{
+    background-color: white;
+    width: 100vw;
+    height: 250vh;
+    margin: auto;
+}
+.navbar-links a:hover {
+    color: #ff0000; /* Change the color to your desired hover color */
+  }
+.Form-area{
+    position: absolute;
+    top: 78vh;
+    width: 90vw;
+    background-color: white;
+    margin: auto 5% auto 5%;
+    border-radius: 30px;
+    box-shadow: 0px 3.32063px 99.619px rgba(126, 125, 170, 0.51);
+}
+
+
+.foooter{
+    /* position: relative; */
+    position: absolute;
+    top: 200vh;
+}

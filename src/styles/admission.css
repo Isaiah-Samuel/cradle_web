@@ -4,6 +4,9 @@
     background-color: white;
     /* height: 1000vh; */
 }
+.navbar-links a:hover {
+    color: #ff0000; /* Change the color to your desired hover color */
+  }
 
 .topest {
     width: auto;

@@ -1,12 +1,53 @@
 .mid-nav{
     background-image: url('../assets/about.png');
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;    
 }
 /* -------------------------------- */
+.navbar-links a:hover {
+  color: #ff0000; /* Change the color to your desired hover color */
+}
+.About{
+  background-color: #ffff;
+  width: 100%;
+}
 
+
+.textop{
+  /* background-color: aqua; */
+  height: 40vh;
+  padding: 10% 0;
+}
+.textop h1{
+  text-align: center;
+  font-size: 74px;
+  font-weight: 800;
+}
+.textop h3{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+.about-text{
+  text-align: center;
+  padding: 0 ;
+  width: 80%;
+  margin: auto;
+}
+.about-text h1{
+  font-size: 62px;
+  font-weight: 700;
+  color:#05022B;
+}
+.about-text h3{
+  text-align: left;
+  margin-top: 5%;
+  font-weight: 400;
+  color: #05022B;
+  font-size: 32px;
+}
 
 /* -------------------------------------/ */
 
@@ -30,7 +71,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 20px;
-      background-color: blue;
+      /* background-color: blue; */
       margin: 0 5%;
     }
     
@@ -54,6 +95,8 @@
       color: #ffff;
     }
     
+
+    /* ------------------About Card---------------------- */
     @media screen and (max-width: 768px) {
       .mid-navbar-links {
         display: none;

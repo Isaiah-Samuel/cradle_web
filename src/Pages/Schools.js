@@ -39,10 +39,10 @@ export default function Schools() {
                 </a>
               </div>
               <div className="navbar-links">
-                <a href="/">Admissions</a>
-                <a href="/">Schools</a>
-                <a href="/">About</a>
-                <a href="/">Contact Us</a>
+                <a href="/admission">Admissions</a>
+                <a href="/schools">Schools</a>
+                <a href="/about">About</a>
+                <a href="/contactus">Contact Us</a>
               </div>
             </nav>
             <div className="requirement">

@@ -6,7 +6,9 @@
     background-color: white;
   }
   
-
+  .navbar-links a:hover {
+    color: #ff0000; /* Change the color to your desired hover color */
+  }
 .Schools{
     margin-top: 1%;
     margin-bottom: 0;
