@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/MidNav.css";
+import DropdownButton from "./DropdownButton";
 
 export default function MidNav(props) {
   const { msg1, msg2 } = props;
@@ -17,6 +18,8 @@ export default function MidNav(props) {
             <a href="/schools">Schools</a>
             <a href="/about">About</a>
             <a href="/contactus">Contact Us</a>
+            <DropdownButton/>
+            {/* <a href="/"><button style={{backgroundColor:'#464590'}}>Sign In</button></a> */}
           </div>
         </nav>
 

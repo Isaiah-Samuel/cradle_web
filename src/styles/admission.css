@@ -1,30 +1,23 @@
 .admission {
-    margin-top: 1%;
     margin-bottom: 0;
     background-color: white;
-    /* height: 1000vh; */
 }
 .navbar-links a:hover {
     color: #ff0000; /* Change the color to your desired hover color */
   }
 
 .topest {
-    width: auto;
+    width: 100vw;
     height: fit-content;
-    /* background-color: aqua; */
+    margin: 0;
+   
 }
 
-.top-contain {
-    height: 150vh;
-    margin: 3% 5%;
-    /* background-color: aqua; */
-    border-radius: 34px 34px 0 0;
-}
 
 .top-inner-top-contain {
-    border-radius: 34px 34px 0 0;
     width: 100%;
     height: 80vh;
+    margin-bottom: 110vh;
     /* background-color: blue; */
     background-image: url('../assets/admLpg.png');
     background-size: cover;

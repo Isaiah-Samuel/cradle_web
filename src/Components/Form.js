@@ -6,7 +6,7 @@ import '../styles/Form.css';
 
 const element = <FontAwesomeIcon icon={faEnvelope}/>
 const phone = <FontAwesomeIcon icon={faPhone} />
-const whatsapp =<FontAwesomeIcon icon="fa-brands fa-whatsapp" style={{color: "#06cb13",}} />
+// const whatsapp =<FontAwesomeIcon icon="fa-brands fa-whatsapp" style={{color: "#06cb13",}} />
 
 const Form = () => {
   const [firstName, setFirstName] = useState('');
@@ -90,15 +90,15 @@ const Form = () => {
             </div>
           <hr></hr>
           <div className='phone'>
-          <h5>Phone: 123-456-7890</h5> <h5>{phone}</h5>
+          <h5>Phone: +234 8023383830</h5> <h5>{phone}</h5>
           </div>
           <div className='phone'>
-          <h5>Phone: 123-456-7890</h5> <h5>{phone}</h5>
+          <h5>Phone: +2348038624666</h5> <h5>{phone}</h5>
           </div>
           
           <hr></hr>
           <div className='whatsapp  '>
-          <h5>+2348138189279</h5> <h5>{whatsapp}</h5>
+          {/* <h5>+2348138189279</h5> <h5>{whatsapp}</h5> */}
           </div>
         </div>
       </div>

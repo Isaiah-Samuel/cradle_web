@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/LowerNav.css';
+import DropdownButton from '../Components/DropdownButton';
 
 function LowerNav() {
   return (
@@ -14,6 +15,8 @@ function LowerNav() {
           <Link to="/schools">Schools</Link>
           <Link to="/about">About</Link>
           <Link to="/contactus">Contact Us</Link>
+          <DropdownButton/>
+
         </div>
       </nav>
     </div>

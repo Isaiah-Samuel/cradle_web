@@ -1,0 +1,65 @@
+.navvbar{
+    display: flex;
+    background-color: #05022B;
+}
+.left-navbar-logo{
+    margin: auto;
+    padding-left: 5%;
+}
+
+.right-navbars{
+    width: 100vw;
+    display: block;
+    height: 17vh;
+    /* flex-direction: column; */
+}
+.contain-float-right{
+    padding: auto 5%;
+    display: flex;
+    float:right;
+    width: 65%;
+    height:30%;
+    border-bottom-left-radius: 16px;
+    background-color: #464590;  
+}
+.contain-float-right a{
+    align-items: center;
+    font-size: 0.80em;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 16px;
+    color: rgb(18, 17, 30);
+}
+
+
+.lower-contain-nav{
+    display: flex;
+    float:right;
+    width: 65%;
+    height:70%;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 1%;
+    padding-right: 3%;
+
+}
+.lower-contain-nav a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.lower-contain-nav .slash{
+    color: red;
+}
+
+/* .carousel-cards{
+    width: 100%;
+    height: 50vh;
+}
+.Carousel img{
+    width: 200px;
+    height:200px;
+} */

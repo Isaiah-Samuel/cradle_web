@@ -1,6 +1,6 @@
 import React from "react";
 import LowerNav from "./LowerNav";
-import UpperNav from "./UpperNav";
+// import UpperNav from "./UpperNav";
 import Text from "../Components/T_text";
 import "../styles/PageTop.css";
 function PageTop() {
@@ -22,7 +22,7 @@ function PageTop() {
 
   return (
     <>
-      <UpperNav />
+      {/* <UpperNav /> */}
       <div className="f-body">
         <LowerNav />
 

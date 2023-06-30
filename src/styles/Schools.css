@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 .h-school.active {
     background-color: white;
   }
@@ -10,33 +16,19 @@
     color: #ff0000; /* Change the color to your desired hover color */
   }
 .Schools{
-    margin-top: 1%;
+    margin: 0;
+    /* margin-top: 1%; */
     margin-bottom: 0;
     background-color: white;
-    /* height: 1000vh; */
 }
 
-.Schools .topest {
-    width: auto;
-    height: fit-content;
-    /* background-color: aqua; */
-}
 
-/* ----------------------------------------------------
-this is where you edit
----------------------------------------------------- */
-.Schools .topest .top-contain {
-    height: 560vh;
-    margin: 3% 5%;
-    /* background-color: aqua; */
-    border-radius: 34px 34px 0 0;
-}
 
 .Schools .topest .top-contain .top-inner-top-contain {
-    border-radius: 34px 34px 100px 100px;
     width: 100%;
     height: 80vh;
-    /* background-color: blue; */
+    margin-bottom: 520vh;
+    background-color: blue;
     background-image: url('../assets/admLpg.png');
     background-size: cover;
     background-position: center;
@@ -49,7 +41,6 @@ this is where you edit
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: none;
     margin: 0 5%;
 }
 
@@ -72,17 +63,17 @@ this is where you edit
     color: #ffff;
 }
 
-
+/* ----------------------------------------- */
 .requirement {
+    /* background-color: aqua; */
     margin: 5% auto;
     height: 200vh;
     width: 90%;
-    padding: 5% 5%;
-    /* border-radius: 20px; */
-    /* background-color: aqua; */
+    /* padding: 5% 5%; */
     z-index: 10;
     box-shadow: -1px -17px 30px rgba(0, 0, 0, 0.25);
 }
+/* --------------------------------------------- */
 .requirement-main{padding: 4% 2% 0 4%;
 }
 .requirement-main h1 {
@@ -95,7 +86,7 @@ this is where you edit
 .t-school{
     display:flex;
     justify-content: space-between;
-    margin-top: 0;
+    margin-top: 0;         
 }
 .h-school{
     width: 49%;
@@ -147,19 +138,21 @@ this is where you edit
 .horz{
     width: 100%;
     background-color:  #6A6A6A;
-    /* height: 0.66px; */
     margin:30px auto;
 }
-.body-content{
 
+.body-content1{
+    /* background-color: aqua; */
+    
 }
-
 .board-img{
     width: 90%;
+    display: flex;
+
 }
 .board-img img{
     width:100%;
-    height: 100%;
+    height: 100%;;
 }
 .body-content h3{
     font-weight: 350;
@@ -167,7 +160,6 @@ this is where you edit
 }
 .line-text{
     display: flex;
-    /* background-color: aqua; */
     width: 70%;
     margin:auto;
     margin:60px auto;
@@ -191,7 +183,6 @@ this is where you edit
   /* -------------------end and delete */
   .line-text2{
     display: flex;
-    /* background-color: aqua; */
     width: 70%;
     margin:auto;
     margin:60px auto;

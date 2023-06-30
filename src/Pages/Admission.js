@@ -1,14 +1,14 @@
 import React from "react";
-import UpperNav from "../Layout/UpperNav";
+// import UpperNav from "../Layout/UpperNav";
 import Footer from "../Layout/Footer";
 // import UNavContainer from "../Components/UNavContainer";
+// import LowerNav from "../Layout/LowerNav";
+import DropdownButton from "../Components/DropdownButton";
 import "../styles/admission.css";
 
 export default function Admission() {
   return (
     <div className="admission">
-      <UpperNav />
-      {/* <UNavContainer/> */}
     <div className="topest">
       <div className="top-contain">
         <div className="top-inner-top-contain">
@@ -23,8 +23,11 @@ export default function Admission() {
               <a href="/schools">Schools</a>
               <a href="/about">About</a>
               <a href="/contactus">Contact Us</a>
+              <DropdownButton/>
+              {/* <a href="http://cradlehighportal.etslportal.com/admin"><button style={{backgroundColor:'#464590', borderRadius:'3px'}}>Sign In</button></a> */}
             </div>
           </nav>
+          {/* <LowerNav/> */}
           <div className="adm-text">
             <h1>Cradle High Admission Requirement </h1>
           </div>

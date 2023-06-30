@@ -51,7 +51,7 @@ export default function HighSchool() {
         </h3>
 
         <div className="board-img">
-          <img src={require("../assets/interactiveB.png")} alt="Your Logo" />
+          <img src={require("..? /assets/interactiveB.png")} alt="Your Logo" />
         </div>
         <h4
           style={{

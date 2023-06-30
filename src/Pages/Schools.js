@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import UpperNav from "../Layout/UpperNav";
 import Footer from "../Layout/Footer";
 import "../styles/Schools.css";
 import HighSchool from "../Components/HighSchool";
 import Montessori from "../Components/Montessori";
+import DropdownButton from "../Components/DropdownButton";
 
 export default function Schools() {
   const [showHighSchool, setShowHighSchool] = useState(true);
@@ -15,19 +15,21 @@ export default function Schools() {
     setShowHighSchool(true);
     setShowMontessori(false);
     setIsHighSchoolClicked(true);
-    setIsMontessoriClicked(false);
+    setIsMontessoriClicked(false);  
   };
 
-  const handleClickMontessori = () => {
-    setShowHighSchool(false);
-    setShowMontessori(true);
-    setIsHighSchoolClicked(false);
-    setIsMontessoriClicked(true);
-  };
+  // -------------un comment this----------------
+
+  // const handleClickMontessori = () => {
+  //   setShowHighSchool(false);
+  //   setShowMontessori(true);
+  //   setIsHighSchoolClicked(false);
+  //   setIsMontessoriClicked(true);
+  // };
 
   return (
     <div className="Schools">
-      <UpperNav />
+      {/* <UpperNav /> */}
 
       <div className="topest">
         <div className="top-contain">
@@ -43,6 +45,8 @@ export default function Schools() {
                 <a href="/schools">Schools</a>
                 <a href="/about">About</a>
                 <a href="/contactus">Contact Us</a>
+                <DropdownButton/>
+                {/* <a href="/"><button style={{backgroundColor:'#464590'}}>Sign In</button></a> */}
               </div>
             </nav>
             <div className="requirement">
@@ -54,14 +58,19 @@ export default function Schools() {
                   <h2>High School</h2>
                 </div>
                 <div
+                // -------------------- disabled montessori----------------
+                // --------uncomment to enable-----------------
+
                   className={`m-school ${isMontessoriClicked ? "active" : ""}`}
-                  onClick={handleClickMontessori}
+                  // onClick={handleClickMontessori}
                 >
                   <h2>Montessori</h2>
                 </div>
               </div>
               {/* ------------------------------------------------div0 */}
+             
               {showHighSchool && <HighSchool />}
+                
               {showMontessori && <Montessori />}
               {/* ------------------------------end last div------- */}
             </div>
